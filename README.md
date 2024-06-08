@@ -1,6 +1,15 @@
 # sevlar-sample
 
+To replicate; 
+  <li>npm install</li>
+  <li>Create a .env file in the 'src' folder </li>
+  <li>Add the following:
+    <li>PORT=portnumber</li>
+    <li>JWT_SECRET=secret</li>
+    <li>MONGO_URI=mongo_uri</li>
+  </li>
 
+<br>
 This repository is a small part of another large, private project that I am currently working on. The project aims so solve the hassle people face when dealing with many banks by providing modern interface to connect all their banks, view, make and manage transacions from each bank accounts. Not only can user create budgets but they can also manage expenses - All of these tailored with robust authentication and authorizations. This sample project is created to replicate a small functionality of the larger project.
   As nodejs developers, we always strive to maintain the principle of 'separation of concerns'. One way to implement this could be by making sure that 'ModelA' doesn't directly modify or call a function from 'ModelB'. And often times when implementing this, we get this error which force us to restructure our pre (we should, obviously).
 
